@@ -269,6 +269,211 @@ const shortCutsMenus = [
         ],
     },
 ];
+const reservedWords = [
+    {
+        key: 'sub1',
+        title: 'Tipos de datos',
+        options: [
+            {
+                key: '1',
+                content: 'entero',
+                element: (
+                  <>
+                    <p>
+                      La palabra reservada entero se utiliza para declarar una variable de tipo de dato
+                      primitivo que represente a un numero
+                      entero
+                    </p>
+                    <p>
+                      Su equivalente en java seria la palabra:
+                      <span className='badge badge-success badge-pill'>int</span>
+                    </p>
+                  </>
+                ),
+            },
+            {
+                key: '2',
+                content: 'flotante',
+                element: (
+                  <>
+                    <p>
+                      La palabra reservada flotante se utiliza para declarar una variable de tipo de dato
+                      primitivo que representa cuanquiel
+                      numero racional.
+                    </p>
+                    <p>
+                      Su equivalente en java seria la palabra:
+                      <span className='badge badge-success badge-pill'>float</span>
+                    </p>
+                  </>
+                ),
+            },
+        ],
+    },
+    {
+        key: 'sub2',
+        title: 'Flujo del código',
+        options: [
+          {
+              key: '3',
+              content: 'si',
+              element: (
+                <>
+                  <p>
+                    La palabra reservada si se utiliza para dirigir el flujo de ejecucion de programas
+                    acorde a una condicion dada.
+                  </p>
+                  <p>
+                    Su equivalente en java seria la palabra:
+                    <span className='badge badge-success badge-pill'>if</span>
+                  </p>
+                </>),
+          },
+          {
+              key: '4',
+              content: 'sino',
+              element: (
+                <>
+                  <p>
+                    La palabra reservada sino se utiliza para dirigir el flujo de ejecucion de programas
+                    acorde a la
+                    {' '}
+                    <b>negación</b>
+                    {' '}
+                    de una condicion dada.
+                  </p>
+                  <p>
+                    Su equivalente en java seria la palabra:
+                    <span className='badge badge-success badge-pill'>else</span>
+                  </p>
+                </>
+              ),
+          },
+          {
+              key: '5',
+              content: 'switch',
+              element: (
+                <>
+                  <p>
+                    La palabra reservada switch se utiliza para dirigir el flujo de ejecucion de programas
+                    acorde a los multiples casos de valor de una variable.
+                  </p>
+                  <p>
+                    Su equivalente en java seria la palabra:
+                    <span className='badge badge-success badge-pill'>switch</span>
+                  </p>
+                </>
+              ),
+          },
+          {
+              key: '6',
+              content: 'caso',
+              element: (
+                <>
+                  <p>
+                    La palabra reservada caso se utiliza para decidir el flujo del codigo dado un valor
+                    especifico de una
+                    variable.
+                  </p>
+                  <p>
+                    Su equivalente en java seria la palabra:
+                    <span className='badge badge-success badge-pill'>case</span>
+                  </p>
+                </>
+              ),
+          },
+            {
+                key: '7',
+                content: 'para',
+                element: (
+                  <>
+                    <p>
+                      La palabra reservada para se utiliza en la definicion de bucles que deben cumplir cierta
+                      condicion para finalizar,
+                      estableciendo parametros de inicio y la forma de iteracion para cumplir la condicion de
+                      finalizacion.
+                    </p>
+                    <p>
+                      Su equivalente en java seria la palabra:
+                      <span className='badge badge-success badge-pill'>for</span>
+                    </p>
+                  </>
+                ),
+            },
+            {
+                key: '8',
+                content: 'mientras',
+                element: (
+                  <>
+                    <p>
+                      La palabra reservada mientras se utiliza para establecer un bucle que se ejecutara
+                      siempre y cuando una conndicion
+                      sea evaluada como verdadera.
+                    </p>
+                    <p>
+                      Su equivalente en java seria la palabra:
+                      <span className='badge badge-success badge-pill'>while</span>
+                    </p>
+                  </>
+                ),
+            },
+        ],
+    },
+    {
+        key: 'sub3',
+        title: 'Especiales del sistema',
+        options: [
+            {
+                key: '9',
+                content: 'principal',
+                element: (
+                  <>
+                    <p>
+                      La palabra reservada principal se utiliza para declarar el metodo de inicio de un
+                      programa.
+                    </p>
+                    <p>
+                      Su equivalente en java seria la palabra:
+                      <span className='badge badge-success badge-pill'>main</span>
+                    </p>
+                  </>
+                ),
+            },
+            {
+                key: '10',
+                content: 'escribir',
+                element: (
+                  <>
+                    <p>
+                      La palabra reservada escribir se utiliza para indicarle al sistema que se desea mandar un
+                      mensaje por consola al momento de correr un programa.
+                    </p>
+                    <p>
+                      Su equivalente en python seria la palabra:
+                      <span className='badge badge-light badge-pill'>print</span>
+                    </p>
+                  </>
+                ),
+            },
+            {
+                key: '11',
+                content: 'leer',
+                element: (
+                  <>
+                    <p>
+                      La palabra reservada leer se utiliza para indicarle al sistema que se desea recibir un
+                      valor por medio del teclado al momento de correr un programa.
+                    </p>
+                    <p>
+                      Su equivalente en c# seria la palabra:
+                      <span className='badge badge-dark badge-pill'>Console.ReadLine()</span>
+                    </p>
+                  </>
+                ),
+            },
+        ],
+    },
+];
 
 const MenuDisplayer = (props) => {
     const { isShortCuts, isReservedWords } = props;
@@ -279,7 +484,7 @@ const MenuDisplayer = (props) => {
     }
 
     if (isReservedWords) {
-        menus = shortCutsMenus;
+        menus = reservedWords;
     }
 
     const rootSubmenuKeys = menus.map((menu) => menu.key);

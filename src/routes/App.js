@@ -13,6 +13,7 @@ const App = () => (
     <Layout>
       <Switch>
         <Route exact path='/' component={Home} />
+        <Route exact path='/HelpAndSupportForCapradyCodeEditor' component={Home} />
         <Route exact path='/GetStarted' component={GetStarted} />
         <Route exact path='/Tutorials' component={Tutorials} />
         <Route exact path='/LanguajesReferences' component={LanguajesReferences} />

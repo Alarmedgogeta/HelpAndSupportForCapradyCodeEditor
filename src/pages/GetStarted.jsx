@@ -1,6 +1,5 @@
 import React from 'react';
 import { Typography, Divider } from 'antd';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import MenuDisplayer from '../components/MenuDisplayer';
 import '../assets/styles/pages/GetStarted.css';
 
