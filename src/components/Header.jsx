@@ -9,7 +9,7 @@ const Header = () => (
     <div className='logo'>
       <Link to='/'><img src={logo} alt='Logo' /></Link>
     </div>
-    <Menu theme='dark' mode='horizontal'>
+    <Menu theme='dark' mode='horizontal' style={{ float: 'right' }}>
       <Menu.Item key='1'>
         <Link to='/GetStarted'>Para comenzar</Link>
       </Menu.Item>
