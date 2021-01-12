@@ -1,0 +1,62 @@
+.menudisplayer_container{
+    width: 100%;
+	height: 540px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menudisplayer_container--menu{
+    width: 35%;
+    box-sizing: border-box;
+}
+
+.menudisplayer_container--displayer{
+    width: 60%;
+    height: 100%;
+}
+
+/** El siguiente codigo son clases de bootstrapt, pero como no queria importar todo bootstrap solo copie las clases que necesito */
+
+.badge {
+	display: inline-block;
+	padding: .25em .4em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+    border-radius: .25rem;
+    margin-left: 10px;
+}
+
+.badge-pill {
+	padding-right: .6em;
+	padding-left: .6em;
+	border-radius: 10rem;
+}
+
+.badge-success {
+	color: #fff;
+	background-color: #28a745 !important;
+}
+
+.badge-danger {
+	color: #fff;
+	background-color: #dc3545 !important;
+}
+
+.badge-warning {
+	color: #212529;
+	background-color: #ffc107 !important;
+}
+
+.badge-light {
+	color: #212529;
+	background-color: #f8f9fa !important;
+}
+
+.badge-dark {
+	color: #fff;
+	background-color: #343a40 !important;
+}
