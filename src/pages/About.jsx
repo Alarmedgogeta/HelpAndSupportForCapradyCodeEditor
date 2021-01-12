@@ -16,7 +16,7 @@ const About = () => (
     <div className='about__container--me'>
       <Card
         hoverable
-        style={{ width: 280 }}
+        style={{ width: '28vw' }}
         cover={<img alt='Alan Diaz Yañez' src={me} />}
         title='Alan Diaz Yañez'
       >
