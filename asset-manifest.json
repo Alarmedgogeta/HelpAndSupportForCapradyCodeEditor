@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/HelpAndSupportForCapradyCodeEditor/static/css/main.ae80b41c.chunk.css",
-    "main.js": "/HelpAndSupportForCapradyCodeEditor/static/js/main.a778d270.chunk.js",
-    "main.js.map": "/HelpAndSupportForCapradyCodeEditor/static/js/main.a778d270.chunk.js.map",
-    "runtime-main.js": "/HelpAndSupportForCapradyCodeEditor/static/js/runtime-main.193cc744.js",
-    "runtime-main.js.map": "/HelpAndSupportForCapradyCodeEditor/static/js/runtime-main.193cc744.js.map",
+    "main.css": "/HelpAndSupportForCapradyCodeEditor/static/css/main.2b6a7b02.chunk.css",
+    "main.js": "/HelpAndSupportForCapradyCodeEditor/static/js/main.a7cf03b9.chunk.js",
+    "main.js.map": "/HelpAndSupportForCapradyCodeEditor/static/js/main.a7cf03b9.chunk.js.map",
+    "runtime-main.js": "/HelpAndSupportForCapradyCodeEditor/static/js/runtime-main.b3145891.js",
+    "runtime-main.js.map": "/HelpAndSupportForCapradyCodeEditor/static/js/runtime-main.b3145891.js.map",
     "static/css/2.b544de60.chunk.css": "/HelpAndSupportForCapradyCodeEditor/static/css/2.b544de60.chunk.css",
-    "static/js/2.08d10635.chunk.js": "/HelpAndSupportForCapradyCodeEditor/static/js/2.08d10635.chunk.js",
-    "static/js/2.08d10635.chunk.js.map": "/HelpAndSupportForCapradyCodeEditor/static/js/2.08d10635.chunk.js.map",
-    "static/js/3.4725137d.chunk.js": "/HelpAndSupportForCapradyCodeEditor/static/js/3.4725137d.chunk.js",
-    "static/js/3.4725137d.chunk.js.map": "/HelpAndSupportForCapradyCodeEditor/static/js/3.4725137d.chunk.js.map",
+    "static/js/2.f3272b6b.chunk.js": "/HelpAndSupportForCapradyCodeEditor/static/js/2.f3272b6b.chunk.js",
+    "static/js/2.f3272b6b.chunk.js.map": "/HelpAndSupportForCapradyCodeEditor/static/js/2.f3272b6b.chunk.js.map",
+    "static/js/3.03032d9e.chunk.js": "/HelpAndSupportForCapradyCodeEditor/static/js/3.03032d9e.chunk.js",
+    "static/js/3.03032d9e.chunk.js.map": "/HelpAndSupportForCapradyCodeEditor/static/js/3.03032d9e.chunk.js.map",
     "index.html": "/HelpAndSupportForCapradyCodeEditor/index.html",
     "static/css/2.b544de60.chunk.css.map": "/HelpAndSupportForCapradyCodeEditor/static/css/2.b544de60.chunk.css.map",
-    "static/css/main.ae80b41c.chunk.css.map": "/HelpAndSupportForCapradyCodeEditor/static/css/main.ae80b41c.chunk.css.map",
-    "static/js/2.08d10635.chunk.js.LICENSE.txt": "/HelpAndSupportForCapradyCodeEditor/static/js/2.08d10635.chunk.js.LICENSE.txt",
-    "static/media/logo.fd3f6fff.jpg": "/HelpAndSupportForCapradyCodeEditor/static/media/logo.fd3f6fff.jpg"
+    "static/css/main.2b6a7b02.chunk.css.map": "/HelpAndSupportForCapradyCodeEditor/static/css/main.2b6a7b02.chunk.css.map",
+    "static/js/2.f3272b6b.chunk.js.LICENSE.txt": "/HelpAndSupportForCapradyCodeEditor/static/js/2.f3272b6b.chunk.js.LICENSE.txt",
+    "static/media/logo.fd3f6fff.jpg": "/HelpAndSupportForCapradyCodeEditor/static/media/logo.fd3f6fff.jpg",
+    "static/media/yo.e3a4bb45.jpg": "/HelpAndSupportForCapradyCodeEditor/static/media/yo.e3a4bb45.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.193cc744.js",
+    "static/js/runtime-main.b3145891.js",
     "static/css/2.b544de60.chunk.css",
-    "static/js/2.08d10635.chunk.js",
-    "static/css/main.ae80b41c.chunk.css",
-    "static/js/main.a778d270.chunk.js"
+    "static/js/2.f3272b6b.chunk.js",
+    "static/css/main.2b6a7b02.chunk.css",
+    "static/js/main.a7cf03b9.chunk.js"
   ]
 }
