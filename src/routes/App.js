@@ -15,9 +15,13 @@ const App = () => (
         <Route exact path='/' component={Home} />
         <Route exact path='/HelpAndSupportForCapradyCodeEditor' component={Home} />
         <Route exact path='/GetStarted' component={GetStarted} />
+        <Route exact path='/HelpAndSupportForCapradyCodeEditor/GetStarted' component={GetStarted} />
         <Route exact path='/Tutorials' component={Tutorials} />
+        <Route exact path='/HelpAndSupportForCapradyCodeEditor/Tutorials' component={Tutorials} />
         <Route exact path='/LanguajesReferences' component={LanguajesReferences} />
+        <Route exact path='/HelpAndSupportForCapradyCodeEditor/LanguajesReferences' component={LanguajesReferences} />
         <Route exact path='/About' component={About} />
+        <Route exact path='/HelpAndSupportForCapradyCodeEditor/About' component={About} />
         <Route component={NotFound} />
         <Route />
       </Switch>
